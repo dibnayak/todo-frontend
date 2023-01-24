@@ -52,7 +52,7 @@ function App() {
           type="text"
           value={todo}
           onChange={({ target }) => setTodo(target.value)}
-          placeholder="Enter a todo"
+          placeholder="Enter Dibya"
         />
         <button type="button" onClick={createTodo}>
           Add
